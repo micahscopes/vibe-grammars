@@ -1,0 +1,155 @@
+---
+source: tests/tests.rs
+assertion_line: 19
+expression: result
+---
+( chords
+  `Afa Bre Cdo Dla Bbso Absol G#la A#ti Fmi`
+  ( chord
+    `Afa`
+    ( note
+      `A`
+      ( base
+        `A`
+      )
+    )
+    ( quality
+      `fa`
+      ( solfege
+        `fa`
+      )
+    )
+  )
+  ( chord
+    `Bre`
+    ( note
+      `B`
+      ( base
+        `B`
+      )
+    )
+    ( quality
+      `re`
+      ( solfege
+        `re`
+      )
+    )
+  )
+  ( chord
+    `Cdo`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( quality
+      `do`
+      ( solfege
+        `do`
+      )
+    )
+  )
+  ( chord
+    `Dla`
+    ( note
+      `D`
+      ( base
+        `D`
+      )
+    )
+    ( quality
+      `la`
+      ( solfege
+        `la`
+      )
+    )
+  )
+  ( chord
+    `Bbso`
+    ( note
+      `Bb`
+      ( base
+        `B`
+      )
+      ( accidental
+        `b`
+      )
+    )
+    ( quality
+      `so`
+      ( solfege
+        `so`
+      )
+    )
+  )
+  ( chord
+    `Absol`
+    ( note
+      `Ab`
+      ( base
+        `A`
+      )
+      ( accidental
+        `b`
+      )
+    )
+    ( quality
+      `sol`
+      ( solfege
+        `sol`
+      )
+    )
+  )
+  ( chord
+    `G#la`
+    ( note
+      `G#`
+      ( base
+        `G`
+      )
+      ( accidental
+        `#`
+      )
+    )
+    ( quality
+      `la`
+      ( solfege
+        `la`
+      )
+    )
+  )
+  ( chord
+    `A#ti`
+    ( note
+      `A#`
+      ( base
+        `A`
+      )
+      ( accidental
+        `#`
+      )
+    )
+    ( quality
+      `ti`
+      ( solfege
+        `ti`
+      )
+    )
+  )
+  ( chord
+    `Fmi`
+    ( note
+      `F`
+      ( base
+        `F`
+      )
+    )
+    ( quality
+      `mi`
+      ( solfege
+        `mi`
+      )
+    )
+  )
+)

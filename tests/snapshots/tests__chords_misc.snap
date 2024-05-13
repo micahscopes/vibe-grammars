@@ -1,0 +1,152 @@
+---
+source: tests/tests.rs
+assertion_line: 19
+expression: result
+---
+( chords
+  `Bbm7 Afa AMaj Bmaj C#min9 Cm7♭5 CM11 Cø7`
+  ( chord
+    `Bbm7`
+    ( note
+      `Bb`
+      ( base
+        `B`
+      )
+      ( accidental
+        `b`
+      )
+    )
+    ( quality
+      `m`
+    )
+    ( extension
+      `7`
+      ( degree
+        `7`
+      )
+    )
+  )
+  ( chord
+    `Afa`
+    ( note
+      `A`
+      ( base
+        `A`
+      )
+    )
+    ( quality
+      `fa`
+      ( solfege
+        `fa`
+      )
+    )
+  )
+  ( chord
+    `AMaj`
+    ( note
+      `A`
+      ( base
+        `A`
+      )
+    )
+    ( quality
+      `Maj`
+    )
+  )
+  ( chord
+    `Bmaj`
+    ( note
+      `B`
+      ( base
+        `B`
+      )
+    )
+    ( quality
+      `maj`
+    )
+  )
+  ( chord
+    `C#min9`
+    ( note
+      `C#`
+      ( base
+        `C`
+      )
+      ( accidental
+        `#`
+      )
+    )
+    ( quality
+      `min`
+    )
+    ( extension
+      `9`
+      ( degree
+        `9`
+      )
+    )
+  )
+  ( chord
+    `Cm7♭5`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( quality
+      `m`
+    )
+    ( extension
+      `7`
+      ( degree
+        `7`
+      )
+    )
+    ( extension
+      `♭5`
+      ( accidental
+        `♭`
+      )
+      ( degree
+        `5`
+      )
+    )
+  )
+  ( chord
+    `CM11`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( quality
+      `M`
+    )
+    ( extension
+      `11`
+      ( degree
+        `11`
+      )
+    )
+  )
+  ( chord
+    `Cø7`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( quality
+      `ø`
+    )
+    ( extension
+      `7`
+      ( degree
+        `7`
+      )
+    )
+  )
+)

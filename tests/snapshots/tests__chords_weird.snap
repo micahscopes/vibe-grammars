@@ -1,0 +1,74 @@
+---
+source: tests/tests.rs
+assertion_line: 19
+expression: result
+---
+( chords
+  `Csus4(13) Cmaj7#5/Eb`
+  ( chord
+    `Csus4(13)`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( extension
+      `sus4`
+      ( modifier
+        `sus`
+      )
+      ( degree
+        `4`
+      )
+    )
+    ( parenthetical_extension
+      `(13)`
+      ( extension
+        `13`
+        ( degree
+          `13`
+        )
+      )
+    )
+  )
+  ( chord
+    `Cmaj7#5/Eb`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( quality
+      `maj`
+    )
+    ( extension
+      `7`
+      ( degree
+        `7`
+      )
+    )
+    ( extension
+      `#5`
+      ( accidental
+        `#`
+      )
+      ( degree
+        `5`
+      )
+    )
+    ( slash_bass
+      `/Eb`
+      ( note
+        `Eb`
+        ( base
+          `E`
+        )
+        ( accidental
+          `b`
+        )
+      )
+    )
+  )
+)

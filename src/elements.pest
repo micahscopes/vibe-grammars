@@ -1,0 +1,29 @@
+note = { base ~ accidental{, 2} }
+base = { "A" | "B" | "C" | "D" | "E" | "F" | "G" }
+accidental = { "b" | "#" | "♭" | "♯" | "♮" }
+
+
+// Chord/scale qualities
+long_quality = _{ ^"major" | ^"minor" | ^"diminished" | ^"augmented" | ^"dominant" | ^"altered" }
+medium_quality = _{ ^"maj" | ^"min" | ^"dim" | ^"aug" | ^"dom" | ^"alt" }
+solfege = { "do" | "re" | "mi" | "fa" | "sol" | "so" | "la" | "ti" }
+short_quality = _{ "M" | "m" | "o" | "-" | "+" | "Δ" | "ø" | "°" }
+mode = { "lydian" | "mixolydian" | "aeolian" | "locrian" | "ionian" | "dorian" | "phrygian" }
+
+quality = { long_quality | medium_quality | solfege | short_quality }
+
+// Extensions
+degree = { "4" | "5" | "6" | "7" | "9" | "10" | "11" | "12" | "13" }
+modifier = { "sus" | "add" | "no" | "omit" }
+extension = { (accidental | modifier)? ~ degree }
+parenthetical_extension = { "(" ~ extension ~ ")" }
+
+slash_bass = { "/" ~ note }
+
+chord = {
+  note ~ quality? ~ (extension | parenthetical_extension)* ~ slash_bass?
+}
+
+chords = { chord ~ (" "? ~ chord)* }
+
+key = { note ~ (mode | quality)? }
