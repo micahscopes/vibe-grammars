@@ -1,0 +1,244 @@
+---
+source: tests/tests.rs
+assertion_line: 11
+expression: tree
+---
+( song
+  `G.    Em.   G..
+  Row, row, row your boat
+  G.      Em.       D..
+  Gently down the stream
+  G.        D.        G.        Em.
+  Merrily, merrily, merrily, merrily
+  D7..            G..
+  Life is but a dream`
+  ( chord_line
+    `G.    Em.   G..
+    `
+    ( chord_for_duration
+      `G.`
+      ( chord
+        `G`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `Em.`
+      ( chord
+        `Em`
+        ( note
+          `E`
+          ( base
+            `E`
+          )
+        )
+        ( quality
+          `m`
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `G..`
+      ( chord
+        `G`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+      )
+      ( duration
+        `..`
+      )
+    )
+  )
+  ( lyric_line
+    `Row, row, row your boat
+    `
+  )
+  ( chord_line
+    `G.      Em.       D..
+    `
+    ( chord_for_duration
+      `G.`
+      ( chord
+        `G`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `Em.`
+      ( chord
+        `Em`
+        ( note
+          `E`
+          ( base
+            `E`
+          )
+        )
+        ( quality
+          `m`
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `D..`
+      ( chord
+        `D`
+        ( note
+          `D`
+          ( base
+            `D`
+          )
+        )
+      )
+      ( duration
+        `..`
+      )
+    )
+  )
+  ( lyric_line
+    `Gently down the stream
+    `
+  )
+  ( chord_line
+    `G.        D.        G.        Em.
+    `
+    ( chord_for_duration
+      `G.`
+      ( chord
+        `G`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `D.`
+      ( chord
+        `D`
+        ( note
+          `D`
+          ( base
+            `D`
+          )
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `G.`
+      ( chord
+        `G`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+    ( chord_for_duration
+      `Em.`
+      ( chord
+        `Em`
+        ( note
+          `E`
+          ( base
+            `E`
+          )
+        )
+        ( quality
+          `m`
+        )
+      )
+      ( duration
+        `.`
+      )
+    )
+  )
+  ( lyric_line
+    `Merrily, merrily, merrily, merrily
+    `
+  )
+  ( chord_line
+    `D7..            G..
+    `
+    ( chord_for_duration
+      `D7..`
+      ( chord
+        `D7`
+        ( note
+          `D`
+          ( base
+            `D`
+          )
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        `..`
+      )
+    )
+    ( chord_for_duration
+      `G..`
+      ( chord
+        `G`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+      )
+      ( duration
+        `..`
+      )
+    )
+  )
+  ( lyric_line
+    `Life is but a dream`
+    ( EOI
+      ``
+    )
+  )
+)

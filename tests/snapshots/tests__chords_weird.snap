@@ -1,10 +1,28 @@
 ---
 source: tests/tests.rs
-assertion_line: 19
-expression: result
+assertion_line: 11
+expression: tree
 ---
 ( chords
-  `Csus4(13) Cmaj7#5/Eb`
+  `C7alt Csus4(13) Cmaj7#5/Eb`
+  ( chord
+    `C7alt`
+    ( note
+      `C`
+      ( base
+        `C`
+      )
+    )
+    ( extension
+      `7`
+      ( degree
+        `7`
+      )
+    )
+    ( extension
+      `alt`
+    )
+  )
   ( chord
     `Csus4(13)`
     ( note

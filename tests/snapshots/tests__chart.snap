@@ -1,0 +1,417 @@
+---
+source: tests/tests.rs
+assertion_line: 11
+expression: tree
+---
+( song
+  `FM7 EM7 AbM7 GM7
+  B7alt CM7 Cm7 %
+  %% Em7 C#m7
+  Bbm7 % Gm7 Bbm7
+  AbM7 Gm7.. C7..
+  `
+  ( chord_line
+    `FM7 EM7 AbM7 GM7
+    `
+    ( chord_for_duration
+      `FM7 `
+      ( chord
+        `FM7 `
+        ( note
+          `F`
+          ( base
+            `F`
+          )
+        )
+        ( quality
+          `M`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `EM7 `
+      ( chord
+        `EM7 `
+        ( note
+          `E`
+          ( base
+            `E`
+          )
+        )
+        ( quality
+          `M`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `AbM7 `
+      ( chord
+        `AbM7 `
+        ( note
+          `Ab`
+          ( base
+            `A`
+          )
+          ( accidental
+            `b`
+          )
+        )
+        ( quality
+          `M`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `GM7`
+      ( chord
+        `GM7`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+        ( quality
+          `M`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+  )
+  ( chord_line
+    `B7alt CM7 Cm7 %
+    `
+    ( chord_for_duration
+      `B7alt `
+      ( chord
+        `B7alt `
+        ( note
+          `B`
+          ( base
+            `B`
+          )
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+        ( extension
+          `alt`
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `CM7 `
+      ( chord
+        `CM7 `
+        ( note
+          `C`
+          ( base
+            `C`
+          )
+        )
+        ( quality
+          `M`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `Cm7 `
+      ( chord
+        `Cm7 `
+        ( note
+          `C`
+          ( base
+            `C`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( repeat
+      `%`
+    )
+  )
+  ( chord_line
+    `%% Em7 C#m7
+    `
+    ( repeat
+      `%`
+    )
+    ( repeat
+      `%`
+    )
+    ( chord_for_duration
+      `Em7 `
+      ( chord
+        `Em7 `
+        ( note
+          `E`
+          ( base
+            `E`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `C#m7`
+      ( chord
+        `C#m7`
+        ( note
+          `C#`
+          ( base
+            `C`
+          )
+          ( accidental
+            `#`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+  )
+  ( chord_line
+    `Bbm7 % Gm7 Bbm7
+    `
+    ( chord_for_duration
+      `Bbm7 `
+      ( chord
+        `Bbm7 `
+        ( note
+          `Bb`
+          ( base
+            `B`
+          )
+          ( accidental
+            `b`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( repeat
+      `%`
+    )
+    ( chord_for_duration
+      `Gm7 `
+      ( chord
+        `Gm7 `
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `Bbm7`
+      ( chord
+        `Bbm7`
+        ( note
+          `Bb`
+          ( base
+            `B`
+          )
+          ( accidental
+            `b`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+  )
+  ( chord_line
+    `AbM7 Gm7.. C7..
+    `
+    ( chord_for_duration
+      `AbM7 `
+      ( chord
+        `AbM7 `
+        ( note
+          `Ab`
+          ( base
+            `A`
+          )
+          ( accidental
+            `b`
+          )
+        )
+        ( quality
+          `M`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        ``
+      )
+    )
+    ( chord_for_duration
+      `Gm7..`
+      ( chord
+        `Gm7`
+        ( note
+          `G`
+          ( base
+            `G`
+          )
+        )
+        ( quality
+          `m`
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        `..`
+      )
+    )
+    ( chord_for_duration
+      `C7..`
+      ( chord
+        `C7`
+        ( note
+          `C`
+          ( base
+            `C`
+          )
+        )
+        ( extension
+          `7`
+          ( degree
+            `7`
+          )
+        )
+      )
+      ( duration
+        `..`
+      )
+    )
+  )
+)

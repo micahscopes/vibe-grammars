@@ -15,7 +15,7 @@ quality = { long_quality | medium_quality | solfege | short_quality }
 // Extensions
 degree = { "4" | "5" | "6" | "7" | "9" | "10" | "11" | "12" | "13" }
 modifier = { "sus" | "add" | "no" | "omit" }
-extension = { (accidental | modifier)? ~ degree }
+extension = { ((accidental | modifier)? ~ degree) | "alt" }
 parenthetical_extension = { "(" ~ extension ~ ")" }
 
 slash_bass = { "/" ~ note }

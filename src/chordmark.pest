@@ -1,0 +1,18 @@
+WHITESPACE = _{ " " }
+
+time_signature = { ASCII_NONZERO_DIGIT ~ "/" ~ ASCII_NONZERO_DIGIT }
+repeat = { "%" }
+duration = { "."* }
+chord_for_duration = { (rest | chord) ~ duration }
+rest = { "NC" }
+
+end = _{ NEWLINE | EOI }
+
+section_name = { ASCII+ }
+section_repeat = { "x" ~ ASCII_DIGIT+ }
+key_line = { "key" ~ note ~ end }
+time_signature_line = { time_signature ~ end }
+section_line = { "#" ~ section_name ~ section_repeat? ~ end}
+chord_line = { repeat{0, 2} ~ (time_signature? ~ chord_for_duration+ ~ repeat*)+ ~ end}
+lyric_line = { (!NEWLINE ~ ANY)+ ~ end }
+song = { (section_line | chord_line | time_signature_line | key_line | lyric_line)+ }

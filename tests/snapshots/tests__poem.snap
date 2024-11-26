@@ -1,0 +1,24 @@
+---
+source: tests/tests.rs
+assertion_line: 11
+expression: tree
+---
+( song
+  `here I am,
+  trying to think of a good poem,
+  all for a snapshot test`
+  ( lyric_line
+    `here I am,
+    `
+  )
+  ( lyric_line
+    `trying to think of a good poem,
+    `
+  )
+  ( lyric_line
+    `all for a snapshot test`
+    ( EOI
+      ``
+    )
+  )
+)
